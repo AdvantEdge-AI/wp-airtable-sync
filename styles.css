@@ -1,0 +1,9 @@
+/*** Admin Pages ***/
+.settings-section {
+    border: 1px solid #ccc;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+}
+.field-instructions {
+    font-size: 12px !important;
+}
