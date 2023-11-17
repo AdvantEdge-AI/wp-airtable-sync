@@ -147,11 +147,9 @@ function wp_airtable_sync_admin_page() {
         echo '</form>';
     }
 
-    if ($active_tab == 'settings') {
-        // ... Settings tab content
-    } elseif ($active_tab == 'users') {
-        // Define the $fields array for the Users tab
-        $fields = [
+        elseif ($active_tab == 'users') {
+            // Content for Users tab
+            $fields = [
             'Email' => 'email',
             'Username' => 'username',
             'User ID' => 'user_id',
